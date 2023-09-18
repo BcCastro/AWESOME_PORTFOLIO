@@ -13,15 +13,15 @@ const Projects = () => {
 
   return (
     <div className="projects-wrapper">
-      <h2 class="projects">PROYECTOS</h2>
       <div></div>
 
-      <ProjectTemplate 
-        projectName="Wheel of Doom Colombia"
-        projectDesc="Juego sobre cazar programadores"
-        tags={tags}
-      img={wheelofdoom}
-      />
+        <ProjectTemplate
+          projectName="Wheel of Doom Colombia"
+          projectDesc="Juego sobre cazar programadores"
+          tags={tags}
+          img={wheelofdoom}
+        />
+
 
       <ProjectTemplate
         projectName="Enfoque de género"

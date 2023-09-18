@@ -9,10 +9,10 @@ const ProjectTemplate = ({ projectName, projectDesc, tags, img }) => {
         <span className="project-desc">{projectDesc}</span>
 
         <div className="tags">
-          <h2 className="tech-stack">Technologies used:</h2>
+          <h2 className="tech-stack">Tecnologías usadas:</h2>
           <div className="tags-wrapper">
             {tags.map((tag) => {
-              return <Tag key={ProjectTemplate} value={tag} />;
+              return <Tag key={projectName} value={tag} />;
             })}
           </div>
         </div>

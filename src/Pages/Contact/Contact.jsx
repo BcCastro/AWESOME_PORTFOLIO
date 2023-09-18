@@ -16,16 +16,31 @@ const Contact = () => {
       </span>
 
       <div className="socials">
-        <Social logo={github} value="GitHub" />
-        <Social logo={linkedin} value="Linkedin" />
-        <Social logo={discord} value="Discord" />
-        <Social logo={whatsapp} value="Whatsapp" />
-        <Social logo={torre} value="Torre" />
+        <a href="https://github.com/BcCastro">
+          <Social logo={github} value="GitHub" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/castrocamilo/">
+          <Social logo={linkedin} value="Linkedin" />
+        </a>
+
+        <a href="https://discord.com/users/camilocastro2926">
+          <Social logo={discord} value="Discord" />
+        </a>
+
+        <a href="http://wa.me/573156159066">
+          <Social logo={whatsapp} value="Whatsapp" />
+        </a>
+
+        <a href="https://torre.ai/bryanthernandez">
+          <Social logo={torre} value="Torre" />
+        </a>
+
       </div>
 
       <footer>
         <span>
-        ¡Gracias por visitar mi sitio web. Espero podamos contactarnos pronto!
+          ¡Gracias por visitar mi sitio web. Espero podamos contactarnos pronto!
         </span>
       </footer>
     </div>
